@@ -1,0 +1,48 @@
+@media (max-width: 767px) {
+    .welcome h2{
+        font-size: 18px;
+    }
+
+    .welcome h3{
+        font-size: 15px;
+    }
+
+    .enter-name input{
+        width: 300px;
+        height: 35px;
+    }
+
+    .enter-name  button{
+        width: 70px;
+        height: 35px;
+        font-size: 15px;
+        margin-left: -20px;
+    }
+
+    .categories h2{
+        font-size: 20px;
+
+    }
+
+    .options{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .options button{
+        width: 300px;
+        height: 35px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+   
+}
+
+@media (max-width: 790px){
+    .start_btn button{
+        font-size: 16px;
+    }
+}
